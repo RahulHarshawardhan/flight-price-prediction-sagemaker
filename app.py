@@ -269,7 +269,6 @@ preprocessor = Pipeline(steps=[
 
 
 # Read the training Data
-
 train = pd.read_csv(train.csv)
 
 X_train = train.drop(columns= "price")
